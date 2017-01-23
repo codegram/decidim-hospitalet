@@ -2,14 +2,14 @@ source "https://rubygems.org"
 
 ruby '2.4.0'
 
-gem "decidim", git: "https://github.com/AjuntamentdeBarcelona/decidim.git"
+gem "decidim", git: "https://github.com/AjuntamentdeBarcelona/decidim.git", branch: "dont_include_layout_on_api_controllers"
 gem "decidim_hospitalet-surveys", path: "engines/decidim_hospitalet-surveys"
 
 gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
-  gem "decidim-dev", git: "https://github.com/AjuntamentdeBarcelona/decidim.git"
+  gem "decidim-dev", git: "https://github.com/AjuntamentdeBarcelona/decidim.git", branch: "dont_include_layout_on_api_controllers"
   gem 'byebug', platform: :mri
 end
 
