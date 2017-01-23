@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/AjuntamentdeBarcelona/decidim.git
-  revision: 2745b8d5f5c66ac602c0fc6637b441fd32d28a6d
+  revision: 2f7e49f25f14e978f614094a1c58ee9797c49889
   branch: dont_include_layout_on_api_controllers
   specs:
     decidim (0.0.2)
