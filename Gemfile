@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby '2.4.0'
 
-gem "decidim", git: "https://github.com/AjuntamentdeBarcelona/decidim.git"
+gem "decidim", git: "https://github.com/AjuntamentdeBarcelona/decidim.git", branch: "fix_logo_size"
 gem "decidim_hospitalet-surveys", path: "engines/decidim_hospitalet-surveys"
 
 gem "passenger"
@@ -11,7 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem "rack-host-redirect"
 
 group :development, :test do
-  gem "decidim-dev", git: "https://github.com/AjuntamentdeBarcelona/decidim.git"
+  gem "decidim-dev", git: "https://github.com/AjuntamentdeBarcelona/decidim.git", branch: "fix_logo_size"
   gem 'byebug', platform: :mri
 end
 
